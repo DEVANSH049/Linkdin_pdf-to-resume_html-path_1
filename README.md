@@ -3,7 +3,7 @@ This is a simple resume generator application built with Streamlit. It extracts 
 
 MODEL
 This project uses the google/flan-t5-base model, a powerful transformer-based model, to process text and extract structured information from PDF resumes.
-
+ 
 FOLDER STRUCTURE OVERVIEW
 app.py: Main file to run the Streamlit interface.
 resume_extraction/: Contains modules to extract data from PDF, process it with the LLM, and generate HTML output.
