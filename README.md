@@ -6,15 +6,15 @@ bash
 Copy code
 resume_generator/
 │
-├── app.py                     # Main Streamlit app
-├── requirements.txt            # List of dependencies
+├── app.py               
+├── requirements.txt            
 ├── resume_extraction/
-│   ├── __init__.py             # Init file for the module
-│   ├── pdf_extractor.py        # Extract text and links from PDF
-│   ├── llm_processing.py       # Use pretrained LLM to extract structured data
-│   └── html_generator.py       # Generate HTML resume from structured data
+│   ├── __init__.py             
+│   ├── pdf_extractor.py        
+│   ├── llm_processing.py       
+│   └── html_generator.py       
 └── assets/
-    └── sample_resume.pdf       # (Optional) Sample PDF resume for testing
+    └── sample_resume.pdf       
 #Model
 This project uses the google/flan-t5-base model, a powerful transformer-based model, to process text and extract structured information from PDF resumes.
 
