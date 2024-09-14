@@ -1,7 +1,7 @@
 # Linkdin_pdf-to-resume_html-path_1
 This is a simple resume generator application built with Streamlit. It extracts resume information from a PDF file, processes it using a pretrained large language model (LLM), and generates a well-structured HTML resume.
 
-#Project Structure
+#Project Structure 
 bash
 Copy code
 resume_generator/
